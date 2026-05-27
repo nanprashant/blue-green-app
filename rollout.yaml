@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: nginx:1.25-alpine # Start with version 1.25
+        image: nginxdemos/hello:plain-text # Start with version 1.25
         ports:
         - containerPort: 80
